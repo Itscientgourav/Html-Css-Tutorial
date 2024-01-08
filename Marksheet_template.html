@@ -34,6 +34,24 @@
 
         }
 
+        /* First row specific styles */
+        tr:first-child td:first-child {
+            border-top-left-radius: 5px !important;
+        }
+
+        tr:first-child td:last-child {
+            border-top-right-radius: 5px !important;
+        }
+
+        /* Last row specific styles */
+        tr:last-child td:first-child {
+            border-bottom-left-radius: 5px !important;
+        }
+
+        tr:last-child td:last-child {
+            border-bottom-right-radius: 5px !important;
+        }
+
         td {
             background-color: white;
             /* width: 40px; */
@@ -75,8 +93,12 @@
                             <picture>
                                 <img src="Assets/Image/minilogo.png" alt="" srcset=""
                                     style="width:200px;float: left;margin: 20px 20px 0px 20px;">
-                                <h4 style="margin-left:56px; width: 183px;padding: 0px 15px 2px 15px;color: #000000;font-weight: 600;margin-bottom: -2px;">PROGRESS</h4>
-                                <h4 style="margin-left:39px; background-color: #f1487a;width: 183px;padding: 0px 15px 2px 15px;color: #ffffff;font-weight: 600;">REPORT CARD</h4>
+                                <h4
+                                    style="margin-left:56px; width: 183px;padding: 0px 15px 2px 15px;color: #000000;font-weight: 600;margin-bottom: -2px;">
+                                    PROGRESS</h4>
+                                <h4
+                                    style="margin-left:39px; background-color: #f1487a;width: 183px;padding: 0px 15px 2px 15px;color: #ffffff;font-weight: 600;">
+                                    REPORT CARD</h4>
                             </picture>
                         </div>
                     </div>
@@ -84,54 +106,158 @@
                 <div class="col-md-12"
                     style="padding-left: 12px;padding-right: 12px;display: flex;justify-content: center;">
                     <div class="row">
-                        <table style="padding:5px !important; text-align: center !important;border-collapse: separate !important; border-spacing: 2px !important;">
+                        <table
+                            style="padding:5px !important; text-align: center !important;border-collapse: separate !important; border-spacing: 2px !important;">
                             <thead>
                                 <tr>
-                                    <th rowspan="2" style="text-align: center !important;border-radius: 5px !important;">Heading 1</th>
-                                    <th colspan="4" style="width: 300px !important; text-align: center !important;border-radius: 5px !important;">Heading 2</th>
+                                    <th rowspan="2"
+                                        style="text-align: center !important;border-radius: 5px !important;">
+                                        Heading 1</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="subject" style="width: 200px; border-radius: 5px !important; background-color: #ffffff !important; height: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">Row 1 Data 1</td>
-                                    <td style="border-radius: 5px !important; background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;" class="marks">1</td>
-                                    <td style="border-radius: 5px !important; background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;" class="marks">2</td>
-                                    <td style="border-radius: 5px !important; background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;" class="marks">3</td>
-                                    <td style="border-radius: 5px !important; background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;" class="marks">4</td>
+                                    <td class="subject"
+                                        style="width: 200px; background-color: #ffffff !important; height: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;">
+                                        Row 1 Data 1</td>
                                 </tr>
                                 <tr>
-                                    <td>Row 2 Data 1</td>
-                                    <td style="border-radius: 5px !important; background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;" class="marks">1</td>
-                                    <td style="border-radius: 5px !important; background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;" class="marks">2</td>
-                                    <td style="border-radius: 5px !important; background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;" class="marks">3</td>
-                                    <td style="border-radius: 5px !important; background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;" class="marks">4</td>
+                                    <td class="subject"
+                                        style="width: 200px;  background-color: #ffffff !important; height: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;">
+                                        Row 1 Data 1</td>
+                                </tr>
+                                <tr>
+                                    <td class="subject"
+                                        style="width: 200px;  background-color: #ffffff !important; height: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;">
+                                        Row 2 Data 1</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <table style="padding:5px !important; text-align: center !important;">
+
+                        <table
+                            style="padding:5px !important; text-align: center !important;border-collapse: separate !important; border-spacing: 2px !important;">
                             <thead>
                                 <tr>
-                                    <th rowspan="2" style="text-align: center !important;border-radius: 5px !important;">Heading 1</th>
-                                    <th colspan="4" style="width: 300px !important; text-align: center !important;border-radius: 5px !important;">Heading 2</th>
+                                    <th colspan="4"
+                                        style="width: 300px !important; text-align: center !important;border-radius: 5px !important;">
+                                        Heading 2</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="subject" style="width: 200px; border-radius: 5px !important;">Row 1 Data 1</td>
-                                    <td style="border-radius: 5px !important;" class="marks">1</td>
-                                    <td style="border-radius: 5px !important;" class="marks">2</td>
-                                    <td style="border-radius: 5px !important;" class="marks">3</td>
-                                    <td style="border-radius: 5px !important;" class="marks">4</td>
+                                    <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;"
+                                        class="marks">1</td>
+                                    <td
+                                        style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                        2</td>
+                                    <td
+                                        style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                        3</td>
+                                    <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;"
+                                        class="marks">4</td>
                                 </tr>
                                 <tr>
-                                    <td>Row 2 Data 1</td>
-                                    <td style="border-radius: 5px !important;" class="marks">1</td>
-                                    <td style="border-radius: 5px !important;" class="marks">2</td>
-                                    <td style="border-radius: 5px !important;" class="marks">3</td>
-                                    <td style="border-radius: 5px !important;" class="marks">4</td>
+                                    <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;"
+                                        class="marks">1</td>
+                                    <td
+                                        style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                        2</td>
+                                    <td
+                                        style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                        3</td>
+                                    <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;"
+                                        class="marks">4</td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;"
+                                        class="marks">1</td>
+                                    <td
+                                        style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                        2</td>
+                                    <td
+                                        style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                        3</td>
+                                    <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;"
+                                        class="marks">4</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <table
+                        style="padding:5px !important; text-align: center !important;border-collapse: separate !important; border-spacing: 2px !important;">
+                        <thead>
+                            <tr>
+                                <th rowspan="2"
+                                    style="text-align: center !important;border-radius: 5px !important;">
+                                    Heading 1</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="subject"
+                                    style="width: 200px; background-color: #ffffff !important; height: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;">
+                                    Row 1 Data 1</td>
+                            </tr>
+                            <tr>
+                                <td class="subject"
+                                    style="width: 200px;  background-color: #ffffff !important; height: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;">
+                                    Row 1 Data 1</td>
+                            </tr>
+                            <tr>
+                                <td class="subject"
+                                    style="width: 200px;  background-color: #ffffff !important; height: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;">
+                                    Row 2 Data 1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table
+                        style="padding:5px !important; text-align: center !important;border-collapse: separate !important; border-spacing: 2px !important;">
+                        <thead>
+                            <tr>
+                                <th colspan="4"
+                                    style="width: 300px !important; text-align: center !important;border-radius: 5px !important;">
+                                    Heading 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;"
+                                    class="marks">1</td>
+                                <td
+                                    style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                    2</td>
+                                <td
+                                    style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                    3</td>
+                                <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;"
+                                    class="marks">4</td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;"
+                                    class="marks">1</td>
+                                <td
+                                    style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                    2</td>
+                                <td
+                                    style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                    3</td>
+                                <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;"
+                                    class="marks">4</td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;"
+                                    class="marks">1</td>
+                                <td
+                                    style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                    2</td>
+                                <td
+                                    style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-right: 2px solid #783e03 !important; border-bottom: 2px solid #783e03 !important;">
+                                    3</td>
+                                <td style="background-color: #ffffff !important; height: 43px !important; width: 43px !important; font-size: 20px !important; border-bottom: 2px solid #783e03 !important;"
+                                    class="marks">4</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     </div>
                 </div>
                 <br />
