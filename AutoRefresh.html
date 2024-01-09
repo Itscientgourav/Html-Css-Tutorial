@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Through meta tag set default -->
+  <meta http-equiv="refresh" content="2;https://www.w3schools.com/html/default.asp">
+  <title>Dynamic Meta Tag</title>
+</head>
+<body>
+
+<!-- Your HTML content -->
+<!-- Through javascript set default -->
+<script>
+  // Create a new meta element
+  var metaTag = document.createElement('meta');
+
+  // Set attributes for the meta tag
+  metaTag.setAttribute('http-equiv', 'refresh');
+  metaTag.setAttribute('content', '5;https://www.blobmaker.app/'); // Refresh every 5 seconds, adjust as needed
+
+  // Append the meta tag to the head element
+  document.head.appendChild(metaTag);
+</script>
+
+</body>
+</html>
